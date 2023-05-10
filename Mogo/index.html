@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/02a1889e90.js" crossorigin="anonymous"></script>
     <title>MOGO</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+<body>  
 
-<body>
+
     <header class="header">
         <div class="container">
             <div class="header_inner">
                 <div class="header_logo">MoGo</div>
-
+                
                 <nav class="nav">
                     <a class="nav__link active" href="#">About</a>
                     <a class="nav__link" href="#">Service</a>
@@ -30,15 +29,14 @@
                         <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                     <a class="nav__link" href="#">
-                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
                     </a>
                 </nav>
             </div>
-
         </div>
     </header>
 
-
+<div class="page">
 
     <div class="intro">
         <div class="container">
@@ -53,10 +51,13 @@
             <div class="container">
 
                 <div class="slider__inner">
-                    <div class="slider__item active"><span class="slider__numb">01</span>Intro</div>
-                    <div class="slider__item"><span class="slider__numb">02</span>Work</div>
-                    <div class="slider__item"><span class="slider__numb">03</span>About</div>
-                    <div class="slider__item"><span class="slider__numb">04</span>Contacts</div>
+                    <div class="slider__item active">
+                        <span class="slider__numb">01</span>
+                        <span class="slider__text">Intro</span>
+                    </div>
+                    <div class="slider__item"><span class="slider__numb">02</span><span class="slider__text">Work</span></div>
+                    <div class="slider__item"><span class="slider__numb">03</span><span class="slider__text">About</span></div>
+                    <div class="slider__item"><span class="slider__numb">04</span><span class="slider__text"></span>Contacts</span></div>
                 </div>
 
             </div>
@@ -147,46 +148,44 @@
             </div>
 
             <div class="services">
-                <div class="services__item">
+                <div class="services__item services__item--border">
                     <img class="services__icon" src="images/Icon/1.jpg" alt="">
                     <div class="services__title">Photography</div>
                     <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.</div>
                 </div>
-                <div class="services__item">
+                <div class="services__item services__item--border">
                     <img class="services__icon" src="images/Icon/3.jpg" alt="">
                     <div class="services__title">Web Design</div>
                     <div class="services__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.</div>
                 </div>
-                <div class="services__item">
+                <div class="services__item services__item--border">
                     <img class="services__icon" src="images/Icon/5.jpg" alt="">
                     <div class="services__title">Creativity</div>
                     <div class="services__text">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod te</div>
                 </div>
-            </div>
 
-            <hr class="razdel">
-
-            <div class="services">
                 <div class="services__item">
                     <img class="services__icon" src="images/Icon/2.jpg" alt="">
+                
                     <div class="services__title">CEO</div>
                     <div class="services__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm</div>
                 </div>
                 <div class="services__item">
                     <img class="services__icon" src="images/Icon/4.jpg" alt="">
+                
                     <div class="services__title">CSS/HTML</div>
                     <div class="services__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.</div>
                 </div>
                 <div class="services__item">
                     <img class="services__icon" src="images/Icon/6.jpg" alt="">
+                
                     <div class="services__title">DIGITAL</div>
                     <div class="services__text">Sit amet, consectetur adipiscing elit, sed do eiusmod te</div>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -224,7 +223,7 @@
 
             <div class="wedo">
                 <div class="wedo__item">
-                    <img src="images/2354.jpg">
+                    <img class="wedo__img" src="images/2354.jpg">
                 </div>
                 <div class="wedo__item">
                     <div class="accardion">
@@ -847,7 +846,7 @@
         </div>
 
     </footer>
-
+</div>
 
 </body>
 
